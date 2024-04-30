@@ -41,14 +41,18 @@ I share this code *as-is* in the hope that you will find it usefull for enhancin
 
 Create a venv and then install dependencies:
 
-python -m venv venv
-cd venv
-.\venv\scripts\activate.bat
-pip install -r requirements.txt
+`python -m venv venv`
+
+`cd venv`
+
+`.\venv\scripts\activate.bat`
+
+`pip install -r requirements.txt`
+
 
 To start the program, run the Python script from your Windows terminal:
 
-python euro_main_en.py
+`python euro_main_en.py`
 
 
 
