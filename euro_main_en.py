@@ -128,7 +128,7 @@ while True: # print menu and get user input
             if prize > 0:
                 print(f"{Fore.BLUE} {Back.WHITE}\n    *** Congratulations, you won the {prize}th Prize! ***")
             else:
-                print(f"\n    Unfortunately, you did not win this time, good luck next time.")
+                print(f"\n    Unfortunately, you did not win this time, better luck next time.")
 
             currentState = INITIAL_STATE
 
@@ -153,7 +153,7 @@ while True: # print menu and get user input
 ### exit program
 
 print(Fore.BLUE + Back.WHITE + text2art("EuroMillions", font='small'))
-print(Fore.YELLOW + "\n    *** Thank you for choosing the games of Santa Casa da Misericórdia. ***\n")
+print(Fore.YELLOW + "\n    *** Thank you for playing EuroMillions. ***\n")
 
 # exit Colorama gracefully
 deinit()
