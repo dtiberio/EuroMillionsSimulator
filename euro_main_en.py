@@ -126,7 +126,7 @@ while True: # print menu and get user input
             printEuroKey(matchNumbers, matchStars)
 
             if prize > 0:
-                print(f"{Fore.BLUE} {Back.WHITE}\n    *** Congratulations, you won the {prize}th Prize! ***")
+                print(f"{Fore.BLUE} {Back.WHITE}\n    *** Congratulations, you won the {prize}-th Prize! ***")
             else:
                 print(f"\n    Unfortunately, you did not win this time, better luck next time.")
 
