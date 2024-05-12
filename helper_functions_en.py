@@ -188,47 +188,48 @@ def getPrizeKey(numbers, stars):
             case 5:
                 match stars:
                     case 2:
-                        return 1
+                        return 1, "the First Prize"
                     case 1:
-                        return 2
+                        return 2, "the Second Prize"
                     case 0:
-                        return 3
+                        return 3, "the Third Prize"
             case 4:
                 match stars:
                     case 2:
-                        return 4
+                        return 4, "the 4th Prize"
                     case 1:
-                        return 5
+                        return 5, "the 5th Prize"
                     case 0:
-                        return 7
+                        return 7, "the 7th Prize"
             case 3:
                 match stars:
                     case 2:
-                        return 6
+                        return 6, "the 6th Prize"
                     case 1:
-                        return 9
+                        return 9, "the 9th Prize"
                     case 0:
-                        return 10
+                        return 10, "the 10th Prize"
             case 2:
                 match stars:
                     case 2:
-                        return 8
+                        return 8, "the 8th Prize"
                     case 1:
-                        return 12
+                        return 12, "the 12th Prize"
                     case 0:
-                        return 13
+                        return 13, "the 13th Prize"
             case 1:
                 match stars:
                     case 2:
-                        return 11
+                        return 11, "the 11th Prize"
                     case 1:
-                        return 0
+                        return 0, ''
                     case 0:
-                        return 0
+                        return 0, ''
             case 0:
-                return 0
+                return 0, ''
     else: 
-        return 0
+        return 0, ''
+
 
 def printEuroKey(lista1, lista2):
     """
