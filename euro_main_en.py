@@ -117,7 +117,7 @@ while True: # print menu and get user input
             numbersCorrect = len(matchNumbers)
             starsCorrect = len(matchStars)
 
-            prize = getPrizeKey(numbersCorrect, starsCorrect)
+            prize, prizeMessage = getPrizeKey(numbersCorrect, starsCorrect)
 
             clearTerminal()
 
@@ -126,7 +126,7 @@ while True: # print menu and get user input
             printEuroKey(matchNumbers, matchStars)
 
             if prize > 0:
-                print(f"{Fore.BLUE} {Back.WHITE}\n    *** Congratulations, you won the {prize}-th Prize! ***")
+                print(f"{Fore.BLUE} {Back.WHITE}\n    *** Congratulations, you won {prizeMessage}! ***")
             else:
                 print(f"\n    Unfortunately, you did not win this time, better luck next time.")
 
