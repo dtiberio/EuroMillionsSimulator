@@ -37,9 +37,9 @@ It offers an opportunity to cover a variety of Python programming competencies:
    - **Code Documentation**: Through docstrings and comments, the program provides good examples of how to document Python code effectively, which is crucial for maintainability and readability.
    - **Modular Design**: Encourages the development of a modular coding approach, helping to keep code blocks small, manageable, and responsible for specific functionalities.
 
-I share this code *as-is* in the hope that you will find it usefull for enhancing your Python programming skills.
+I share this code *as-is* in the hope that you might find it usefull for enhancing your Python programming skills.
 
-Create a venv and then install dependencies:
+To run the code, create a Python venv and then install the dependencies:
 
 `python -m venv venv`
 
